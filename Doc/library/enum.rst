@@ -1125,7 +1125,7 @@ and raise an error if the two do not match::
 _Private__names
 """""""""""""""
 
-Private names will be normal attributes in Python 3.10 instead of either an error
+:ref:`Private names <private-name-mangling>` will be normal attributes in Python 3.10 instead of either an error
 or a member (depending on if the name ends with an underscore). Using these names
 in 3.9 will issue a :exc:`DeprecationWarning`.
 
